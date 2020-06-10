@@ -26,5 +26,5 @@ def t_STRING(token):
     return token
 
 def t_WORD(token):
-    r"[^ <>]+"
+    r"[^ <> \n]+"
     return token
